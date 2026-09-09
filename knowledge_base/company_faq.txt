@@ -1,0 +1,32 @@
+COMPANY REFUND POLICY
+
+1. Refund Request
+
+Customer can request a refund within 14 days after purchase.
+
+2. Refund Processing Time
+
+Approved refunds will be processed within 5-7 business days.
+
+3. Refund Eligibility
+
+Refund is not available for products that have been fully consumed.
+
+4. Payment Issue
+
+If payment is deducted but service is unavailable, customer should contact support.
+
+---------------------------------
+
+TECHNICAL SUPPORT FAQ
+
+1. Application Crash
+
+If the application crashes:
+- Restart the application
+- Clear cache
+- Update to the latest version
+
+2. Account Problem
+
+Customers should verify their registered email before account recovery.
