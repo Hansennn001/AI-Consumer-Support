@@ -103,55 +103,8 @@ The system stores:
 
 # 3. System Architecture
 
-    Customer Request
+<img width="529" height="1263" alt="Architecture" src="https://github.com/user-attachments/assets/45cb332f-c5d2-4301-a632-6680b1f7b1f6" />
 
-            |
-            v
-
-    Memory Retriever
-
-            |
-            v
-
-    Classifier
-
-            |
-            v
-
-    Risk Detector
-
-            |
-            +----------------+
-            |                |
-            v                v
-
-    Human Review       Tool Decision
-
-                             |
-                  +----------+----------+
-                  |                     |
-                  v                     v
-
-            Tavily Search          Knowledge Base
-
-                  |                     |
-
-                  +----------+----------+
-
-                             |
-                             v
-
-                  Response Generator
-
-                             |
-                             v
-
-                  Memory Saver
-
-                             |
-                             v
-
-                        Logger
 
 ------------------------------------------------------------------------
 
