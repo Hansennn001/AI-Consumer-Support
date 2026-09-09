@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Penjelasan singkat assessment.
+Brief project explanation.
 
 ## Components
 
