@@ -102,56 +102,7 @@ The system stores:
 ------------------------------------------------------------------------
 
 # 3. System Architecture
-
-    Customer Request
-
-            |
-            v
-
-    Memory Retriever
-
-            |
-            v
-
-    Classifier
-
-            |
-            v
-
-    Risk Detector
-
-            |
-            +----------------+
-            |                |
-            v                v
-
-    Human Review       Tool Decision
-
-                             |
-                  +----------+----------+
-                  |                     |
-                  v                     v
-
-            Tavily Search          Knowledge Base
-
-                  |                     |
-
-                  +----------+----------+
-
-                             |
-                             v
-
-                  Response Generator
-
-                             |
-                             v
-
-                  Memory Saver
-
-                             |
-                             v
-
-                        Logger
+<img width="529" height="1263" alt="Architecture" src="https://github.com/user-attachments/assets/bc09b815-b19d-49eb-81f5-f27241a87339" />
 
 ------------------------------------------------------------------------
 
@@ -171,42 +122,7 @@ Container: - Docker
 
 ------------------------------------------------------------------------
 
-# 5. Project Structure
-
-    customer-support-agent/
-
-    ├── app/
-    │   ├── agents/
-    │   │   └── customer_agent.py
-    │   │
-    │   ├── nodes/
-    │   │   ├── classifier.py
-    │   │   ├── risk_detector.py
-    │   │   ├── tool_decision.py
-    │   │   ├── tavily_search.py
-    │   │   ├── response_generator.py
-    │   │   ├── memory_saver.py
-    │   │   └── logger.py
-    │   │
-    │   ├── database/
-    │   │   └── db.py
-    │   │
-    │   ├── api/
-    │   │   └── main.py
-    │   │
-    │   └── testing/
-    │       └── test_agent.py
-    │
-    ├── knowledge_base/
-    ├── database/
-    ├── Dockerfile
-    ├── requirements.txt
-    ├── .env.example
-    └── README.md
-
-------------------------------------------------------------------------
-
-# 6. Installation
+# 5. Installation
 
 Clone repository:
 
@@ -223,7 +139,7 @@ pip install -r requirements.txt
 
 ------------------------------------------------------------------------
 
-# 7. Environment Configuration
+# 6. Environment Configuration
 
 Create environment file:
 
@@ -240,7 +156,7 @@ TAVILY_API_KEY=your_tavily_api_key
 
 ------------------------------------------------------------------------
 
-# 8. Running Application
+# 7. Running Application
 
 Initialize database:
 
@@ -260,7 +176,7 @@ Application:
 
 ------------------------------------------------------------------------
 
-# 9. API Endpoint
+# 8. API Endpoint
 
 ## Health Check
 
@@ -293,7 +209,7 @@ Example:
 
 ------------------------------------------------------------------------
 
-# 10. Testing
+# 9. Testing
 
 Run assessment validation:
 
@@ -317,7 +233,7 @@ Expected:
 
 ------------------------------------------------------------------------
 
-# 11. Docker Deployment
+# 10. Docker Deployment
 
 Build image:
 
@@ -333,7 +249,7 @@ docker run --env-file .env -p 8000:8000 customer-agent
 
 ------------------------------------------------------------------------
 
-# 12. Design Decisions
+# 11. Design Decisions
 
 ## Why LangGraph?
 
@@ -355,7 +271,7 @@ on hardcoded keyword rules.
 
 ------------------------------------------------------------------------
 
-# 13. Limitations
+# 12. Limitations
 
 Current limitations:
 
@@ -367,7 +283,7 @@ Current limitations:
 
 ------------------------------------------------------------------------
 
-# 14. Future Improvements
+# 13. Future Improvements
 
 Potential improvements:
 
