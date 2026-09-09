@@ -16,47 +16,8 @@ The pipeline extracts meaningful webpage content, removes unnecessary informatio
 
 # Pipeline Architecture
 
-```
+<img width="172" height="752" alt="architecturepart2" src="https://github.com/user-attachments/assets/94497ad6-617a-4789-9d9f-ca1fa32a62f2" />
 
-Web URL
-
-|
-
-v
-
-HTML Scraper
-
-|
-
-v
-
-HTML Cleaner
-
-|
-
-v
-
-Content Chunking
-
-|
-
-v
-
-Gemini Summarization
-
-|
-
-v
-
-Output Guardrail
-
-|
-
-v
-
-Final Summary
-
-```
 
 ---
 
