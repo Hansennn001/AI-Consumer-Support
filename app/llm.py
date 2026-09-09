@@ -25,8 +25,7 @@ class GeminiFallback:
             try:
 
                 print(
-                    "Using Gemini key:",
-                    key[:10]
+                    "Using Gemini Provider:"
                 )
 
 
@@ -54,8 +53,7 @@ class GeminiFallback:
 
 
                 print(
-                    "Failed key:",
-                    key[:10]
+                    "Gemini request failed, trying fallback provider..",
                 )
 
 
