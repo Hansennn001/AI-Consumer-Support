@@ -103,13 +103,6 @@ Install required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
-
-For Part 2 scraper module:
-
-```bash
-pip install -r part2_scraper/requirement.txt
-```
-
 ---
 
 ## 4. Configure API Keys
